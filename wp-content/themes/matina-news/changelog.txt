@@ -1,0 +1,47 @@
+== 1.0.11 : 2024-06-21 ==
+-Fix: Dashboard admin page api error fixed.
+-Imp: Language pot file updated.
+
+== 1.0.10 : 2024-03-07 ==
+-New: Dashboard UI Changes.
+-Imp: Fontawesome updated to 6.5.1 & Extra social icon introduce.
+Design tweaks & Improvement done.
+
+== 1.0.9 : 2022-11-13 ==
+-Fix: Bugs in range customizer control.
+
+== 1.0.8 : 2022-09-12 ==
+-Fix: Translation ready slug in theme setting page.
+
+== 1.0.7 : 2022-09-12 ==
+-New: Block based widget design added.
+-New: Block based tag dynamic hover color added.
+-Fix: Theme setting page design glitch fixed.
+
+
+== 1.0.6 : 2021-04-24 ==
+-New: Added switch toggle for block base widget editor.
+-Fix: Design at theme settings dashboard.
+-Fix: Image caption at single post page.
+
+== 1.0.5 : 2021-06-19 ==
+-Fix: Site title h1 tag issue fixed.
+Some design tweaks done.
+-New: Added dynamic typography option added for site title.
+
+== 1.0.4 : 2020-11-23 ==
+-Fix: Schema html attribute issue fixed.
+
+== 1.0.3 : 2020-10-17 ==
+-Fix: Demo url.
+    
+== 1.0.2 : 2020-10-17 ==
+-Fix: Missing escaping.
+-Imp: Managed image license.
+
+== 1.0.1 : 2020-09-07 ==
+-New: Added demo import section at theme settings page.
+-Imp: Updated : .pot file.
+
+== 1.0.0  : 2020-09-01 ==
+-New: Upload the theme on wordpress.org trac.

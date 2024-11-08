@@ -1,0 +1,24 @@
+body.dark {
+    --head-color: #fff;
+    --stext-color: #fff;
+    --text-color: #fff;
+    --text-color2: #ededed;
+    --wtext-color: #fff;
+    --bg-color: transparent;
+    --bg-color2: #555;
+    --border-color: #333;
+    --box-color: transparent;
+    --box-color2: #222;
+    --wrap-color: #1C1C1C;
+    --blog-backcolor: transparent;
+    --bxsh: 0 1px 3px rgba(185, 185, 185, 0.15);
+    --bxshover: 0 4px 60px 0 rgba(185, 185, 185, 0.2);
+    --cat-text-color: #fff;
+     /* header */
+	--headbg-color: #fff;
+	--headmenu-color: #fff; 
+   /* footer  */
+	--ftbackcolor: #000;
+	--ftwtitile-color: #fff;
+	--ftwtext-color: #F2F2F8; 
+}

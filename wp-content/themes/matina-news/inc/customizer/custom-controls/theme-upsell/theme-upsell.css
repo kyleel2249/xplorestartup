@@ -1,0 +1,26 @@
+/**
+ * Custom Style for Upsell section
+ *
+ * @package Matina News
+ */
+
+#customize-controls .control-section-mt-upsell .accordion-section-title:hover,
+#customize-controls .control-section-mt-upsell .accordion-section-title:focus {
+    background-color: #fff;
+}
+
+.control-section-mt-upsell .accordion-section-title .button {
+    margin-top:  -4px;
+    font-weight: 700;
+    margin-left: 8px;
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    color: #fff;
+    border:none;
+}
+
+.control-section-mt-upsell .accordion-section-title .button:hover {
+    background: #1FA3E8;
+    background:linear-gradient(#1FA3E8,#1FA3E8);
+}

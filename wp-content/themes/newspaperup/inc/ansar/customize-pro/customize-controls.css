@@ -1,0 +1,29 @@
+body #accordion-section-newspaperup_pro_upsell h3 {
+    display: flex;
+    border-bottom: 2px solid #eee;
+}
+body #accordion-section-newspaperup_pro_upsell h3 .button-secondary{
+    background: linear-gradient(276deg, #461cfb 0%, #150264 100%) !important;
+    color: #fff;
+    padding: 6px 13px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #461cfb;
+    transition: all 0.3s;
+}
+body #accordion-section-newspaperup_pro_upsell h3 .button-secondary:hover{
+    background: #fff !important;
+    color: #461cfb;
+}
+body #accordion-section-newspaperup_support_form h3{
+    display: flex; 
+}
+body #accordion-section-newspaperup_support_form h3 .button-secondary{
+    background-color: #2271b1;
+    color: #fff;
+    padding: 6px 13px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #2271b1;
+    transition: all 0.5s;
+}

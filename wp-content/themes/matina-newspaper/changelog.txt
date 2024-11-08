@@ -1,0 +1,10 @@
+== 1.0.2: 2024-07-30 ==
+- New: Theme URI Added.
+Theme description changes done.
+
+== 1.0.1: 2024-07-25 ==
+- Fix: Underline links issue fixed.
+- Fix: Dynamic color issue for anchor tag fixed.
+
+== 1.0.0: 2024-07-24 ==
+- New: First submit.

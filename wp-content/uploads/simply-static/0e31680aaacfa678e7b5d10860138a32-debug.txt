@@ -1,0 +1,719 @@
+[2024-11-07 18:51:50] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-07 18:51:50] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-11-07 18:51:50] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-07 18:51:53] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-07 18:51:53] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-07 18:51:53] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-07 18:51:53] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510\
+[2024-11-07 18:51:53] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/xplorestartup.com/
+[2024-11-07 18:51:53] [class-jetpack-integration.php:40] Adding Jetpack file to queue: http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/build/carousel/swiper-bundle.min.js
+[2024-11-07 18:51:53] [class-jetpack-integration.php:40] Adding Jetpack file to queue: http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/blocks/swiper.css
+[2024-11-07 18:51:53] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-07 18:51:53] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 18:51:53] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 18:51:53] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-11-07 18:51:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/
+[2024-11-07 18:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-11-07 18:51:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c49c9d96-wC1mMV.tmp
+[2024-11-07 18:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/?simply_static_page=445
+[2024-11-07 18:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/?simply_static_page=445
+[2024-11-07 18:51:57] [class-ss-url-fetcher.php:103] Filesize: 46531 bytes
+[2024-11-07 18:51:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:51:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-07 18:51:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c49c9d96-wC1mMV.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/index.html
+[2024-11-07 18:51:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:51:57] [class-ss-fetch-urls-task.php:159] Adding 27 URLs to the queue
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:51:58] [class-ss-page.php:119] Checking Content Identical:d951642e8677dc5a6634bf472353e7d0b6809685===. Value: FALSE
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/build/carousel/swiper-bundle.min.js
+[2024-11-07 18:51:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c4e229f0-roxF5g.tmp
+[2024-11-07 18:51:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/build/carousel/swiper-bundle.min.js?simply_static_page=446
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/build/carousel/swiper-bundle.min.js?simply_static_page=446
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:103] Filesize: 99902 bytes
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/jetpack/_inc/build/carousel/swiper-bundle.min.js
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c4e229f0-roxF5g.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/plugins/jetpack/_inc/build/carousel/swiper-bundle.min.js
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:51:58] [class-ss-page.php:119] Checking Content Identical:e1c81c3e8b7ea9ddef1492e1b466e42e2a5c152a===. Value: FALSE
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/blocks/swiper.css
+[2024-11-07 18:51:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c4e95079-tRfAIy.tmp
+[2024-11-07 18:51:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/blocks/swiper.css?simply_static_page=447
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/plugins/jetpack/_inc/blocks/swiper.css?simply_static_page=447
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:103] Filesize: 12987 bytes
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/jetpack/_inc/blocks/swiper.css
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c4e95079-tRfAIy.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/plugins/jetpack/_inc/blocks/swiper.css
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:51:58] [class-ss-page.php:119] Checking Content Identical:5a11078178655597b5fbea044446d2cf2eb2989d===. Value: FALSE
+[2024-11-07 18:51:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2024-11-07 18:51:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 18:51:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 18:51:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:69] Total pages: 29; Pages remaining: 26
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/category/business/
+[2024-11-07 18:51:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 29
+[2024-11-07 18:51:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c4ec532f-3UJRO1.tmp
+[2024-11-07 18:51:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/category/business/?simply_static_page=448
+[2024-11-07 18:51:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/category/business/?simply_static_page=448
+[2024-11-07 18:52:02] [class-ss-url-fetcher.php:103] Filesize: 48015 bytes
+[2024-11-07 18:52:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:52:02] [class-ss-url-fetcher.php:233] New filename for static page: /category/business/index.html
+[2024-11-07 18:52:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c4ec532f-3UJRO1.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/category/business/index.html
+[2024-11-07 18:52:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:03] [class-ss-fetch-urls-task.php:159] Adding 29 URLs to the queue
+[2024-11-07 18:52:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:03] [class-ss-page.php:119] Checking Content Identical:f0611b545f4143073c2444c7c82f3bfe1fc54136===. Value: FALSE
+[2024-11-07 18:52:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/category/tech/
+[2024-11-07 18:52:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 29
+[2024-11-07 18:52:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c533c9d1-iopx1L.tmp
+[2024-11-07 18:52:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/category/tech/?simply_static_page=449
+[2024-11-07 18:52:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/category/tech/?simply_static_page=449
+[2024-11-07 18:52:07] [class-ss-url-fetcher.php:103] Filesize: 46271 bytes
+[2024-11-07 18:52:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:52:07] [class-ss-url-fetcher.php:233] New filename for static page: /category/tech/index.html
+[2024-11-07 18:52:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c533c9d1-iopx1L.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/category/tech/index.html
+[2024-11-07 18:52:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:07] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-11-07 18:52:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:08] [class-ss-page.php:119] Checking Content Identical:efa1ccb0d554cc5c114ae004f1f767f1acdc1116===. Value: FALSE
+[2024-11-07 18:52:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/
+[2024-11-07 18:52:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 29
+[2024-11-07 18:52:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c5807ae7-HzRgDC.tmp
+[2024-11-07 18:52:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/?simply_static_page=450
+[2024-11-07 18:52:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/?simply_static_page=450
+[2024-11-07 18:52:12] [class-ss-url-fetcher.php:103] Filesize: 56768 bytes
+[2024-11-07 18:52:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:52:12] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/index.html
+[2024-11-07 18:52:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c5807ae7-HzRgDC.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/index.html
+[2024-11-07 18:52:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:12] [class-ss-fetch-urls-task.php:159] Adding 34 URLs to the queue
+[2024-11-07 18:52:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:12] [class-ss-page.php:119] Checking Content Identical:655f0e13cde429507d500255352b951faf0ad996===. Value: FALSE
+[2024-11-07 18:52:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/2024/11/
+[2024-11-07 18:52:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 29
+[2024-11-07 18:52:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c5cdef89-vuVKFX.tmp
+[2024-11-07 18:52:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/2024/11/?simply_static_page=451
+[2024-11-07 18:52:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/2024/11/?simply_static_page=451
+[2024-11-07 18:52:16] [class-ss-url-fetcher.php:103] Filesize: 47895 bytes
+[2024-11-07 18:52:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:52:16] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/index.html
+[2024-11-07 18:52:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c5cdef89-vuVKFX.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/2024/11/index.html
+[2024-11-07 18:52:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:17] [class-ss-page.php:119] Checking Content Identical:5359c516ad65299e5ea99eba02a67fdfacd53cd0===. Value: FALSE
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/uploads/2024/11/4-things-you-need-to-integrate-creativity-in-innovation.png
+[2024-11-07 18:52:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 29
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6160819-5s3xyC.tmp
+[2024-11-07 18:52:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/uploads/2024/11/4-things-you-need-to-integrate-creativity-in-innovation.png?simply_static_page=452
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/uploads/2024/11/4-things-you-need-to-integrate-creativity-in-innovation.png?simply_static_page=452
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:103] Filesize: 1402401 bytes
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/4-things-you-need-to-integrate-creativity-in-innovation.png
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6160819-5s3xyC.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/uploads/2024/11/4-things-you-need-to-integrate-creativity-in-innovation.png
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:17] [class-ss-page.php:119] Checking Content Identical:2112f8faf1ec5ca1751298eb324e09c4cd7c7a13===. Value: FALSE
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-includes/js/jquery/jquery.min.js
+[2024-11-07 18:52:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 29
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c616edbd-IWgsA5.tmp
+[2024-11-07 18:52:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-includes/js/jquery/jquery.min.js?simply_static_page=453
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-includes/js/jquery/jquery.min.js?simply_static_page=453
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c616edbd-IWgsA5.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-includes/js/jquery/jquery.min.js
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:17] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-07 18:52:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 29
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6190927-b1z296.tmp
+[2024-11-07 18:52:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=454
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=454
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6190927-b1z296.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:17] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/js/lightslider.min.js
+[2024-11-07 18:52:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 29
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c61bf6c1-NmpXE1.tmp
+[2024-11-07 18:52:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/js/lightslider.min.js?simply_static_page=455
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/js/lightslider.min.js?simply_static_page=455
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:103] Filesize: 16026 bytes
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/lightslider/js/lightslider.min.js
+[2024-11-07 18:52:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c61bf6c1-NmpXE1.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/lightslider/js/lightslider.min.js
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:6623fc1ded87f5cae0c636954d452c3461ae2430===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/sticky-sidebar/theia-sticky-sidebar.min.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6204dac-uEexTX.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/sticky-sidebar/theia-sticky-sidebar.min.js?simply_static_page=456
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/sticky-sidebar/theia-sticky-sidebar.min.js?simply_static_page=456
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 5370 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/sticky-sidebar/theia-sticky-sidebar.min.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6204dac-uEexTX.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/sticky-sidebar/theia-sticky-sidebar.min.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:f0d5bdeed40c87b79d5bf0b667faa4f2764a6a28===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/sticky/jquery.sticky.min.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c620d3ca-KMk4iV.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/sticky/jquery.sticky.min.js?simply_static_page=457
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/sticky/jquery.sticky.min.js?simply_static_page=457
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 2907 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/sticky/jquery.sticky.min.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c620d3ca-KMk4iV.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/sticky/jquery.sticky.min.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:1a49d69a591d4899a34dbdc6c1c952de015de107===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-includes/js/imagesloaded.min.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6216703-bLlfh7.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-includes/js/imagesloaded.min.js?simply_static_page=458
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-includes/js/imagesloaded.min.js?simply_static_page=458
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 5520 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/imagesloaded.min.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6216703-bLlfh7.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-includes/js/imagesloaded.min.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:90b0adb37d70ffec5f9189c36bb0027c310c9502===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-includes/js/masonry.min.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c62319a9-DTfmLR.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-includes/js/masonry.min.js?simply_static_page=459
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-includes/js/masonry.min.js?simply_static_page=459
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 24138 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/masonry.min.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c62319a9-DTfmLR.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-includes/js/masonry.min.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:76778fd446e2ff2377588a7b4ac4d79f258427c9===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/navigation.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6256511-WZvmBI.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/navigation.js?simply_static_page=460
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/navigation.js?simply_static_page=460
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 2351 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/js/navigation.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6256511-WZvmBI.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/js/navigation.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:ea2609075e2aada624cb38650b8b6cd34e974a98===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/skip-link-focus-fix.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6264b5b-vNAXlC.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/skip-link-focus-fix.js?simply_static_page=461
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/skip-link-focus-fix.js?simply_static_page=461
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 716 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/js/skip-link-focus-fix.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6264b5b-vNAXlC.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/js/skip-link-focus-fix.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:f36f53cb950367fff7455566e6c0f293bfe863ae===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/matina-news-scripts.js
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c627488e-zqfWAm.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/matina-news-scripts.js?simply_static_page=462
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/js/matina-news-scripts.js?simply_static_page=462
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:103] Filesize: 6652 bytes
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/js/matina-news-scripts.js
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c627488e-zqfWAm.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/js/matina-news-scripts.js
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:18] [class-ss-page.php:119] Checking Content Identical:2de14660c9371b4c8cba99aa8493b3121894f56d===. Value: FALSE
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/feed/
+[2024-11-07 18:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 29
+[2024-11-07 18:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c627aa9d-28yFJd.tmp
+[2024-11-07 18:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/feed/?simply_static_page=463
+[2024-11-07 18:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/feed/?simply_static_page=463
+[2024-11-07 18:52:22] [class-ss-url-fetcher.php:103] Filesize: 7737 bytes
+[2024-11-07 18:52:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 18:52:22] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-07 18:52:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c627aa9d-28yFJd.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/feed/index.xml
+[2024-11-07 18:52:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:22] [class-ss-fetch-urls-task.php:159] Adding 6 URLs to the queue
+[2024-11-07 18:52:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:22] [class-ss-page.php:119] Checking Content Identical:2126c148099c0555fff2bdbb7504bc65063adebd===. Value: FALSE
+[2024-11-07 18:52:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/comments/feed/
+[2024-11-07 18:52:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 29
+[2024-11-07 18:52:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6657088-A75nfZ.tmp
+[2024-11-07 18:52:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/comments/feed/?simply_static_page=464
+[2024-11-07 18:52:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/comments/feed/?simply_static_page=464
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:103] Filesize: 754 bytes
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6657088-A75nfZ.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/comments/feed/index.xml
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:26] [class-ss-page.php:119] Checking Content Identical:182f46162d882762072dffa8462f27ccd97020b1===. Value: FALSE
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-includes/css/dist/block-library/style.min.css
+[2024-11-07 18:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 29
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6a7c67b-A1jE3S.tmp
+[2024-11-07 18:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-includes/css/dist/block-library/style.min.css?simply_static_page=465
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-includes/css/dist/block-library/style.min.css?simply_static_page=465
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6a7c67b-A1jE3S.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-includes/css/dist/block-library/style.min.css
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:26] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/css/all.min.css
+[2024-11-07 18:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 29
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6a92309-ZfvBXB.tmp
+[2024-11-07 18:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/css/all.min.css?simply_static_page=466
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/css/all.min.css?simply_static_page=466
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:103] Filesize: 102641 bytes
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/css/all.min.css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6a92309-ZfvBXB.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/css/all.min.css
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:159] Adding 8 URLs to the queue
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:26] [class-ss-page.php:119] Checking Content Identical:e6866277a77b8d6f62d4c977d51216d8d72a2c0e===. Value: FALSE
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/css/lightslider.min.css
+[2024-11-07 18:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 29
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6ac2d69-DL9VHm.tmp
+[2024-11-07 18:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/css/lightslider.min.css?simply_static_page=467
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/css/lightslider.min.css?simply_static_page=467
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:103] Filesize: 5536 bytes
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/lightslider/css/lightslider.min.css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6ac2d69-DL9VHm.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/lightslider/css/lightslider.min.css
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:26] [class-ss-page.php:119] Checking Content Identical:4cc95c0e2de14becaf96e6570f25d0494f55df5f===. Value: FALSE
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/css/mt-preloader.min.css
+[2024-11-07 18:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 29
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6ad83a5-ZzlSFe.tmp
+[2024-11-07 18:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/css/mt-preloader.min.css?simply_static_page=468
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/css/mt-preloader.min.css?simply_static_page=468
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:103] Filesize: 17341 bytes
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/css/mt-preloader.min.css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6ad83a5-ZzlSFe.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/css/mt-preloader.min.css
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:26] [class-ss-page.php:119] Checking Content Identical:e39a2cc1fb2bcda5e972e38b9fe6c670968589a2===. Value: FALSE
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/style.css
+[2024-11-07 18:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 29
+[2024-11-07 18:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6af09f2-6G7Jix.tmp
+[2024-11-07 18:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/style.css?simply_static_page=469
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/style.css?simply_static_page=469
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:103] Filesize: 94105 bytes
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/style.css
+[2024-11-07 18:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6af09f2-6G7Jix.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/style.css
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:27] [class-ss-page.php:119] Checking Content Identical:625f8bba1af7816f082a0af78167466f0215c531===. Value: FALSE
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/css/mt-responsive.css
+[2024-11-07 18:52:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 29
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6b14772-UTd7Ls.tmp
+[2024-11-07 18:52:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/css/mt-responsive.css?simply_static_page=470
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/css/mt-responsive.css?simply_static_page=470
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:103] Filesize: 11606 bytes
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/css/mt-responsive.css
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6b14772-UTd7Ls.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/css/mt-responsive.css
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:27] [class-ss-page.php:119] Checking Content Identical:7474468f5225f98f4e8a7a3b9283fda43cbc417c===. Value: FALSE
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-newspaper/style.css
+[2024-11-07 18:52:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 29
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6b29688-fiMISL.tmp
+[2024-11-07 18:52:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-newspaper/style.css?simply_static_page=471
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-newspaper/style.css?simply_static_page=471
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:103] Filesize: 1532 bytes
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-newspaper/style.css
+[2024-11-07 18:52:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6b29688-fiMISL.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-newspaper/style.css
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:27] [class-ss-page.php:119] Checking Content Identical:5ae3162ca672123ab1e5e9366677153a67c028d8===. Value: FALSE
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-json/
+[2024-11-07 18:52:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 29
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/wp-json/
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/xmlrpc.php
+[2024-11-07 18:52:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 29
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/xmlrpc.php
+[2024-11-07 18:52:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:52:27] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 29 pages/files
+[2024-11-07 18:52:27] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 18:52:30] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 18:52:30] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 18:52:30] [class-ss-fetch-urls-task.php:69] Total pages: 50; Pages remaining: 21
+[2024-11-07 18:52:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/category/business/feed/
+[2024-11-07 18:52:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 50
+[2024-11-07 18:52:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c6ed374b-38OEPf.tmp
+[2024-11-07 18:52:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/category/business/feed/?simply_static_page=474
+[2024-11-07 18:52:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/category/business/feed/?simply_static_page=474
+[2024-11-07 18:52:34] [class-ss-url-fetcher.php:103] Filesize: 7772 bytes
+[2024-11-07 18:52:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 18:52:34] [class-ss-url-fetcher.php:233] New filename for static page: /category/business/feed/index.xml
+[2024-11-07 18:52:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c6ed374b-38OEPf.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/category/business/feed/index.xml
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:159] Adding 6 URLs to the queue
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:34] [class-ss-page.php:119] Checking Content Identical:7bd29e61bbaa06749b27f808868839da1ffb99db===. Value: FALSE
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-json/wp/v2/categories/1
+[2024-11-07 18:52:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 50
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/wp-json/wp/v2/categories/1
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/category/tech/feed/
+[2024-11-07 18:52:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 50
+[2024-11-07 18:52:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c72c6d29-E4s1ww.tmp
+[2024-11-07 18:52:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/category/tech/feed/?simply_static_page=476
+[2024-11-07 18:52:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/category/tech/feed/?simply_static_page=476
+[2024-11-07 18:52:38] [class-ss-url-fetcher.php:103] Filesize: 887 bytes
+[2024-11-07 18:52:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 18:52:38] [class-ss-url-fetcher.php:233] New filename for static page: /category/tech/feed/index.xml
+[2024-11-07 18:52:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c72c6d29-E4s1ww.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/category/tech/feed/index.xml
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:38] [class-ss-page.php:119] Checking Content Identical:0a3536d9ef3d55b3bde02e63b5f86a5699dc5ae2===. Value: FALSE
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-json/wp/v2/categories/2
+[2024-11-07 18:52:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 50
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/wp-json/wp/v2/categories/2
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/author/joseph-anim-darko/
+[2024-11-07 18:52:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 50
+[2024-11-07 18:52:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c76a51a7-DKC1tx.tmp
+[2024-11-07 18:52:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/author/joseph-anim-darko/?simply_static_page=478
+[2024-11-07 18:52:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/author/joseph-anim-darko/?simply_static_page=478
+[2024-11-07 18:52:42] [class-ss-url-fetcher.php:103] Filesize: 47987 bytes
+[2024-11-07 18:52:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:52:42] [class-ss-url-fetcher.php:233] New filename for static page: /author/joseph-anim-darko/index.html
+[2024-11-07 18:52:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c76a51a7-DKC1tx.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/author/joseph-anim-darko/index.html
+[2024-11-07 18:52:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:159] Adding 29 URLs to the queue
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:43] [class-ss-page.php:119] Checking Content Identical:e244da59421f0b963e01d53070faa8415dddaa2e===. Value: FALSE
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com
+[2024-11-07 18:52:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 50
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c7b79f92-M91MAn.tmp
+[2024-11-07 18:52:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com?simply_static_page=479
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com?simply_static_page=479
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:103] Filesize: 365 bytes
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/xplorestartup.com/
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/uploads/2024/11/business-man-banner-concept-with-copy-space.jpg
+[2024-11-07 18:52:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 50
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c7b7e211-eMoX3V.tmp
+[2024-11-07 18:52:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/uploads/2024/11/business-man-banner-concept-with-copy-space.jpg?simply_static_page=480
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/uploads/2024/11/business-man-banner-concept-with-copy-space.jpg?simply_static_page=480
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:103] Filesize: 7763570 bytes
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/business-man-banner-concept-with-copy-space.jpg
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c7b7e211-eMoX3V.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/uploads/2024/11/business-man-banner-concept-with-copy-space.jpg
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:43] [class-ss-page.php:119] Checking Content Identical:832f55511dac726b8d268e1f0f9dd24d7350b6cf===. Value: FALSE
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-includes/js/comment-reply.min.js
+[2024-11-07 18:52:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 50
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c7bb0c93-UsfCOF.tmp
+[2024-11-07 18:52:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-includes/js/comment-reply.min.js?simply_static_page=481
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-includes/js/comment-reply.min.js?simply_static_page=481
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c7bb0c93-UsfCOF.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-includes/js/comment-reply.min.js
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:43] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/feed/
+[2024-11-07 18:52:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 50
+[2024-11-07 18:52:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c7bc3628-e8n5gR.tmp
+[2024-11-07 18:52:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/feed/?simply_static_page=482
+[2024-11-07 18:52:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/feed/?simply_static_page=482
+[2024-11-07 18:52:47] [class-ss-url-fetcher.php:103] Filesize: 931 bytes
+[2024-11-07 18:52:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 18:52:47] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/feed/index.xml
+[2024-11-07 18:52:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c7bc3628-e8n5gR.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/2024/11/06/embrace-the-xplore-spirit-a-startups-guide-to-success/feed/index.xml
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:47] [class-ss-page.php:119] Checking Content Identical:85a6bc7302333fb5e984fc0290d05e72c7c3eb40===. Value: FALSE
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-json/wp/v2/posts/10
+[2024-11-07 18:52:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 50
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/wp-json/wp/v2/posts/10
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-json/oembed/1.0/embed
+[2024-11-07 18:52:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 50
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/wp-json/oembed/1.0/embed
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/2024/
+[2024-11-07 18:52:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 50
+[2024-11-07 18:52:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c7fd2c3e-y3XHMS.tmp
+[2024-11-07 18:52:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/2024/?simply_static_page=485
+[2024-11-07 18:52:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/2024/?simply_static_page=485
+[2024-11-07 18:52:52] [class-ss-url-fetcher.php:103] Filesize: 47605 bytes
+[2024-11-07 18:52:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:52:52] [class-ss-url-fetcher.php:233] New filename for static page: /2024/index.html
+[2024-11-07 18:52:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c7fd2c3e-y3XHMS.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/2024/index.html
+[2024-11-07 18:52:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:52] [class-ss-fetch-urls-task.php:159] Adding 27 URLs to the queue
+[2024-11-07 18:52:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:52] [class-ss-page.php:119] Checking Content Identical:4d5cf3c5657a08a2dfbaeef28319b608187b7cd1===. Value: FALSE
+[2024-11-07 18:52:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.woff2
+[2024-11-07 18:52:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c850037d-jBtezn.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.woff2?simply_static_page=486
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.woff2?simply_static_page=486
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 117372 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c850037d-jBtezn.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.woff2
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:4022f95e001d734ca8f082b8e7627abd205609ec===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.ttf
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c850a1c9-oWGG63.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.ttf?simply_static_page=487
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.ttf?simply_static_page=487
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 207972 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c850a1c9-oWGG63.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-brands-400.ttf
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:acaf5320927fc169b0089f8f25afb9cfbad353b4===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.woff2
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c85136f7-K5QGFf.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.woff2?simply_static_page=488
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.woff2?simply_static_page=488
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 25452 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c85136f7-K5QGFf.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.woff2
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:2ed706340547d19c10a409ee02fb08f3d52ff670===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.ttf
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c851d1f2-9j6e4O.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.ttf?simply_static_page=489
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.ttf?simply_static_page=489
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 68004 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c851d1f2-9j6e4O.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-regular-400.ttf
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:784b4d493ab9a7996b07e4f9f71674b2f2e43e22===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.woff2
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c85251b2-Dtz5CX.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.woff2?simply_static_page=490
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.woff2?simply_static_page=490
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 156496 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c85251b2-Dtz5CX.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.woff2
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:1aae708e3b94ee981b452a918d28ed037fbb5e18===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.ttf
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c852d5f8-R63AAT.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.ttf?simply_static_page=491
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.ttf?simply_static_page=491
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 419720 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c852d5f8-R63AAT.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-solid-900.ttf
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:54217d79e7b35011798d712a96d1c4ea08a0ca70===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.woff2
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c85379fc-9CFXZl.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.woff2?simply_static_page=492
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.woff2?simply_static_page=492
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 4792 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.woff2
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c85379fc-9CFXZl.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.woff2
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:7009126c938f8dad77426a5b44bc21685ee8dfec===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.ttf
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c853e4af-OdkZka.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.ttf?simply_static_page=493
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.ttf?simply_static_page=493
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 10832 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.ttf
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c853e4af-OdkZka.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/font-awesome/webfonts/fa-v4compatibility.ttf
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:e47d5bf853d39ec86e62f4897cbcac7dd5c3b5b9===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/img/controls.png
+[2024-11-07 18:52:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 50
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c854b12a-CDtKZR.tmp
+[2024-11-07 18:52:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/img/controls.png?simply_static_page=494
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/wp-content/themes/matina-news/assets/library/lightslider/img/controls.png?simply_static_page=494
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:103] Filesize: 2241 bytes
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/matina-news/assets/library/lightslider/img/controls.png
+[2024-11-07 18:52:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c854b12a-CDtKZR.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/wp-content/themes/matina-news/assets/library/lightslider/img/controls.png
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 18:52:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:52:53] [class-ss-page.php:119] Checking Content Identical:01b701152202de10b78dabd9ca829437dd2b75f9===. Value: FALSE
+[2024-11-07 18:52:53] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 29 of 50 pages/files
+[2024-11-07 18:52:53] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 18:52:57] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 18:52:57] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 18:52:57] [class-ss-fetch-urls-task.php:69] Total pages: 52; Pages remaining: 2
+[2024-11-07 18:52:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/author/joseph-anim-darko/feed/
+[2024-11-07 18:52:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 52
+[2024-11-07 18:52:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 18:52:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c89ade3b-u3vugJ.tmp
+[2024-11-07 18:52:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/author/joseph-anim-darko/feed/?simply_static_page=495
+[2024-11-07 18:52:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/author/joseph-anim-darko/feed/?simply_static_page=495
+[2024-11-07 18:53:01] [class-ss-url-fetcher.php:103] Filesize: 7788 bytes
+[2024-11-07 18:53:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 18:53:01] [class-ss-url-fetcher.php:233] New filename for static page: /author/joseph-anim-darko/feed/index.xml
+[2024-11-07 18:53:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c89ade3b-u3vugJ.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510/author/joseph-anim-darko/feed/index.xml
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:159] Adding 6 URLs to the queue
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 18:53:01] [class-ss-page.php:119] Checking Content Identical:79f6e22562af6f5aa2437588829c813f68eb4776===. Value: FALSE
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xplorestartup.com/wp-json/wp/v2/users/1
+[2024-11-07 18:53:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 52
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xplorestartup.com/wp-json/wp/v2/users/1
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 18:53:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 50 of 52 pages/files
+[2024-11-07 18:53:01] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 18:53:01] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 18:53:01] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 18:53:01] [class-ss-fetch-urls-task.php:69] Total pages: 52; Pages remaining: 0
+[2024-11-07 18:53:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 52 of 52 pages/files
+[2024-11-07 18:53:01] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-07 18:53:01] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-07 18:53:01] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-07 18:53:01] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-07 18:53:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/672d0c8ddfbd2-SfHP9R.tmp
+[2024-11-07 18:53:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/xplorestartup.com/1731005582?simply_static_page=0
+[2024-11-07 18:53:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/xplorestartup.com/1731005582?simply_static_page=0
+[2024-11-07 18:53:05] [class-ss-url-fetcher.php:103] Filesize: 43543 bytes
+[2024-11-07 18:53:05] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-07 18:53:05] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-07 18:53:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/672d0c8ddfbd2-SfHP9R.tmp to C:\xampp\htdocs\xplorestartup.com/wp-content/uploads\simply-static\temp-files/simply-static-1-1731005510\404/index.html
+[2024-11-07 18:53:05] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-07 18:53:06] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-07 18:53:06] [class-ss-page.php:119] Checking Content Identical:043c94c8fec4bc4ffb06ebe1c6bf84daee6931af===. Value: FALSE
+[2024-11-07 18:53:06] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-07 18:53:06] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-11-07 18:53:06] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-11-07 18:53:06] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-11-07 18:53:06] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-11-07 18:53:06] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-11-07 18:53:07] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/xplorestartup.com/wp-content/uploads/simply-static/temp-files/simply-static-1-1731005510.zip">Click here to download</a>
+[2024-11-07 18:53:07] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-07 18:53:07] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-07 18:53:07] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-07 18:53:07] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-07 18:53:07] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-07 18:53:07] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-07 18:53:07] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-07 18:53:07] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:17

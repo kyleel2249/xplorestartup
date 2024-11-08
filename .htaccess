@@ -1,0 +1,27 @@
+# BEGIN Serve Static Cache
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_COOKIE} !(^|;\s*)wordpress_logged_in_.*$ [NC]
+RewriteCond %{REQUEST_URI} !^/(elementor|vc_row|fl_builder|fl-theme-builder) [NC]
+RewriteCond %{REQUEST_URI} !^/wp-admin/ [NC]
+RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{QUERY_STRING} ^$ [NC]
+RewriteCond C:\xampp\htdocs\xplorestartup.com/wp-content/serve-static-cache/xplorestartup.com/$1/index.html -f
+RewriteRule ^(.*)$ /xplorestartup.com/wp-content/serve-static-cache/xplorestartup.com/$1/index.html [L]
+
+# END Serve Static Cache
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /xplorestartup.com/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /xplorestartup.com/index.php [L]
+</IfModule>
+
+# END WordPress

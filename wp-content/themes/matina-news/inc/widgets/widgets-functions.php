@@ -1,0 +1,75 @@
+<?php
+/**
+ * Function file for handle the widget related content. 
+ * 
+ * @package Matina News
+ */
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ * @since 1.0.0
+ */
+function matina_news_widgets_init() {
+    /**
+     * Register Main Sidebar
+     *
+     * @since 1.0.0
+     */
+    register_sidebar( array(
+        'name'          => esc_html__( 'Sidebar', 'matina-news' ),
+        'id'            => 'sidebar-1',
+        'description'   => esc_html__( 'Add widgets here.', 'matina-news' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h4 class="widget-title">',
+        'after_title'   => '</h4>',
+    ) );
+
+    /**
+     * Register Header ads Area
+     *
+     * @since 1.0.0
+     */
+    register_sidebar( array(
+        'name'          => esc_html__( 'Header Ads Area', 'matina-news' ),
+        'id'            => 'ads-sidebar',
+        'description'   => esc_html__( 'Added widgets are display at header ads area.', 'matina-news' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h4 class="widget-title">',
+        'after_title'   => '</h4>',
+    ) );
+
+    /**
+     * Register Footer Sidebars.
+     *
+     * @since 1.0.0
+     */
+    register_sidebars( 4, array(
+        'name'          => esc_html__( 'Footer Sidebar %d', 'matina-news' ),
+        'id'            => 'footer-sidebar',
+        'description'   => esc_html__( 'Add widgets here.', 'matina-news' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h4 class="widget-title">',
+        'after_title'   => '</h4>',
+    ) );
+
+    // register MT: Latest Posts widget
+    register_widget( 'Matina_News_Latest_Posts' );
+
+    // register MT: Author Info widget
+    register_widget( 'Matina_News_Author_Info' );
+}
+
+add_action( 'widgets_init', 'matina_news_widgets_init' );
+
+/**
+ * Load widgets file
+ */
+require get_template_directory().'/inc/widgets/mt-widgets-helper.php';
+require get_template_directory().'/inc/widgets/mt-latest-posts.php';
+require get_template_directory().'/inc/widgets/mt-author-info.php';
+

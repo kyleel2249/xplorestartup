@@ -1,0 +1,38 @@
+/*!
+Theme Name:         Matina Newspaper
+Theme URI:          https://demo.mysterythemes.com/matina-news-demos/
+Author:             Mystery Themes
+Author URI:         https://mysterythemes.com
+Description:        Matina Newspaper Theme is a versatile and modern WordPress theme suitable for creating dynamic news, blogs and magazine websites. The theme provides easy customizations with its interactive and easy-to-learn customizer. Check demo here: https://demo.mysterythemes.com/child-theme/matina-newspaper/
+Version:            1.0.2
+Requires at least:  5.0
+Tested up to:       6.6
+Requires PHP:       5.6
+License:            GNU General Public License v3 or later
+License URI:        http://www.gnu.org/licenses/gpl-3.0.html
+Template:     		matina-news
+Text Domain:        matina-newspaper
+Tags:               news, blog, portfolio, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+
+*/
+
+
+.mt-container .elementor-element .cvmm-post-meta .cvmm-post-meta-item a {
+    padding: 4px 6px;
+    background: #0E0E0E;
+    color: #F0F0F0;
+    font-size: 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.entry-content a {
+    text-decoration: underline;
+}
+
+@media(max-width:991px) {
+#page #masthead #primary-menu li:hover .sub-toggle,
+#page #masthead #primary-menu li:focus .sub-toggle{
+    color: #333 !important;
+}
+}
