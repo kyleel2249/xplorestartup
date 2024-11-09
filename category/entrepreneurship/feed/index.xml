@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>XPLORE</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<title>Entrepreneurship &#8211; XPLORE</title>
+	<atom:link href="/category/entrepreneurship/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
 	<lastBuildDate>Sat, 09 Nov 2024 23:00:12 +0000</lastBuildDate>
